@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 
 //componentes
 import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
 
 //estilos
 import './components/navBar.css';
@@ -14,9 +15,14 @@ const root = ReactDOM.createRoot(el);
 
 function App(){
     return(
-        <div className="encabezado">
-            <NavBar></NavBar>
-        </div>
+        <>
+            <div className="encabezado">
+                <NavBar/>
+            </div>
+            <div className="card-section">
+                <ItemListContainer/>
+            </div>
+        </>
 
     );
 };
