@@ -16,9 +16,9 @@ const root = ReactDOM.createRoot(el);
 function App(){
     return(
         <>
-            <div className="encabezado">
+            <>
                 <NavBar/>
-            </div>
+            </>
             <div className="card-section">
                 <ItemListContainer/>
             </div>

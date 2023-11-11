@@ -1,21 +1,22 @@
 //componentes
 import NavBarItem from './NavBarItem';
 //estilos
+import "bulma/css/bulma.css";
 import './navBar.css';
 
 function NavBar (){
     return(
-        <nav className="navbar-divider">
+        <>
             <div className='navbar-brand'>
-                <div className='title'>
-                <h1>NECA STORE</h1>
+                <div className='navbar-start'>
+                <h1 className='titulo'>NECA STORE</h1>
                 </div>
                 <div>
                     <NavBarItem/>
                 </div>
             </div>  
-        </nav>
-    )
+        </>
+    );
 };
 
 export default NavBar;
