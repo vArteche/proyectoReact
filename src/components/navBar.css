@@ -17,7 +17,7 @@
     width: 100%;
 };
 
-.titulo{
+#titulo{
     font-family: 'Bungee Spice', sans-serif;
     display: flex;
     align-items: center;

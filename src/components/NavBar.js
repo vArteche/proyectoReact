@@ -4,12 +4,13 @@ import NavBarItem from './NavBarItem';
 import "bulma/css/bulma.css";
 import './navBar.css';
 
+import logo from '../assets/img/loguito.jpg'
 function NavBar (){
     return(
         <>
             <div className='navbar-brand'>
                 <div className='navbar-start'>
-                <h1 className='titulo'>NECA STORE</h1>
+                    <img src={logo}></img>
                 </div>
                 <div>
                     <NavBarItem/>
