@@ -1,6 +1,5 @@
 import CartWidget from './CartWidget';
 import "bulma/css/bulma.css";
-import './navBar.css';
 
 function NavBarItem(){
     return(
